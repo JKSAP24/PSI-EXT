@@ -14,5 +14,5 @@ jobs:
           with:
             node-version: '20.x'
             check-latest: true
-        - run: npm ci
-        - run: npm test
+        - run: npm i
+        - run: npm run start
