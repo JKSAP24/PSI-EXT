@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "URL Reporter",
+    "version": "1.0",
+    "description": "Sends the current tab URL to an API and shows the response.",
+    "permissions": ["tabs", "activeTab"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "pagespeed.png",
+        "48": "pagespeed.png",
+        "128": "pagespeed.png"
+      }
+    },
+    "icons": {
+      "16": "pagespeed.png",
+      "48": "pagespeed.png",
+      "128": "pagespeed.png"
+    },
+    "host_permissions": [
+      "<all_urls>"
+    ]
+  }
+  
