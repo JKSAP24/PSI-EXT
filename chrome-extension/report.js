@@ -1,4 +1,4 @@
-const host = "https://psi-ext.onrender.com/";
+const host = "http://localhost:3000";
 
 document.addEventListener("DOMContentLoaded", async () => {
   const urlInput = document.getElementById("urlInput");
